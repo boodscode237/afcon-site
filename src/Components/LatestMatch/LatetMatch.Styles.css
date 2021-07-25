@@ -1,4 +1,4 @@
-.latestMatch{
+.latestMatch {
     /*position: absolute;*/
     display: flex;
     flex-direction: column;
@@ -7,32 +7,32 @@
     padding: 10px 30px;
 }
 
-.latestMatch__title{
+.latestMatch__title {
     font-family: Roboto;
     display: inline-block;
-    padding-bottom:30px;
+    padding-bottom: 30px;
 }
-.latestMatch__date{
+
+.latestMatch__date {
     text-align: left;
 }
 
-.latestMatch__date__lines{
+.latestMatch__date__lines {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: flex-start;
-
     align-items: stretch;
     align-content: center;
 }
 
-.latestMatch__date--bigSquare{
+.latestMatch__date--bigSquare {
     width: 10vw;
     height: 5px;
     background-color: #F7A600;
 }
 
-.latestMatch__date--smallSquare{
+.latestMatch__date--smallSquare {
     width: 93vw;
     height: 2px;
     background-color: #F7A600;

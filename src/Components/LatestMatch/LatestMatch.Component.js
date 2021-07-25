@@ -1,5 +1,6 @@
 import React from 'react'
 import './LatetMatch.Styles.css'
+import Match from "../Match/Match.Component";
 
 function LatestMatch() {
     return (
@@ -16,6 +17,7 @@ function LatestMatch() {
                     </div>
                 </div>
             </h2>
+            <Match />
         </div>
     )
 }

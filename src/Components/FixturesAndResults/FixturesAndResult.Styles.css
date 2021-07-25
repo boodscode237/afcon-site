@@ -1,0 +1,32 @@
+.fixturesAndResult{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.fixturesAndResult__header{
+    width: -moz-fit-content;
+    width: fit-content;
+    padding: 5px;
+    text-align: left;
+    margin-left: 5vw;
+    background: #EAF2E3;
+}
+
+.fixturesAndResult__fixRes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.fixturesAndResult__fixRes__fixtures{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.match{width: -moz-fit-content;
+    width: fit-content;}
