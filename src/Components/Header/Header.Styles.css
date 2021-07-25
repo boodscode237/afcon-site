@@ -1,0 +1,35 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+    background: #FDFFFE;
+}
+
+.header__logo {
+    font-family: PT Serif Caption;
+    font-style: bolder;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header__livescore {
+    background: #FDFFFE;
+    font-family: PT Serif Caption;
+    text-align: encter;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header__login {
+    background: #FDFFFE;
+    font-family: PT Serif Caption;
+    text-align: encter;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+}
