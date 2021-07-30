@@ -1,0 +1,153 @@
+.fixture {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    max-width: 35vw;
+    height: 8vh;
+    justify-content: space-around;
+    align-items: inherit;
+    background-color: #eaf2e3;
+    cursor: pointer;
+}
+
+.fixture__homeTeam,
+.fixture__awayTeam,
+.fixture__homeTeam__name,
+.fixture__awayTeam__name,
+.fixture__separator,
+.fixture__homeTeam__score,
+.fixture__awayTeam__score {
+    background-color: #eaf2e3;
+}
+
+.fixture__homeTeam {
+    display: flex;
+    max-height: 8vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: stretch;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.fixture__awayTeam {
+    max-height: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.fixture__homeTeam__name {
+    font-family: PT Sans Caption, serif;
+    font-weight: bold;
+    padding: 0vh 3vw;
+}
+
+.fixture__awayTeam__name {
+    display: inline-block;
+    font-family: PT Sans Caption, serif;
+    font-weight: bold;
+    padding: 0vh 3vw;
+}
+
+.fixture__homeTeam__flag {
+    min-width: 25px;
+    min-height: 25px;
+    border-radius: 50%;
+    background: #4bc475;
+    border: 1px solid #000;
+    margin-left: 3vw;
+}
+
+.fixture__awayTeam__flag {
+    min-width: 25px;
+    min-height: 25px;
+    border-radius: 50%;
+    background: #4bc475;
+    border: 1px solid #000;
+    margin-right: 3vw;
+}
+
+.fixture__homeTeam__score{
+    margin-left: 30px;
+    text-align: center;
+    font-family: PT Sans Caption, serif;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.fixture__awayTeam__score {
+    margin-right: 30px;
+    text-align: center;
+    font-family: PT Sans Caption, serif;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.fixture__separator {
+    text-align: center;
+    font-family: PT Sans Caption, serif;
+    font-weight: bolder;
+    font-size: 24px;
+    margin: 12px;
+}
+
+@media screen and (max-width: 1250px) {
+    .fixture__homeTeam__name {
+        font-family: PT Sans Caption;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 0vh 0vw;
+    }
+    .fixture__awayTeam__name {
+        font-family: PT Sans Caption;
+        font-size: 18px;
+        line-height: 20px;
+        padding: 0vh 0vw;
+    }
+    .fixture__homeTeam__flag {
+        width: 25px;
+        height: 25px;
+    }
+    .fixture__awayTeam__flag {
+        width: 25px;
+        height: 25px;
+    }
+    .fixture__homeTeam__score {
+        font-size: 14px;
+    }
+    .fixture__awayTeam__score {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .fixture__homeTeam__name {
+        font-family: PT Sans Caption;
+        font-size: 14px;
+        line-height: 10px;
+        padding: 0vh 0vw;
+    }
+    .fixture__awayTeam__name {
+        font-family: PT Sans Caption;
+        font-size: 14px;
+        line-height: 10px;
+        padding: 0vh 0vw;
+    }
+    .fixture__homeTeam__flag {
+        width: 5vw;
+        height: 5vh;
+    }
+    .fixture__awayTeam__flag {
+        width: 5vw;
+        height: 5vh;
+    }
+    .fixture__homeTeam__score {
+        font-size: small;
+    }
+    .fixture__awayTeam__score {
+        font-size: 14px;
+    }
+}

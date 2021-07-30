@@ -1,6 +1,6 @@
 import React from 'react'
 import './FixturesAndResult.Styles.css'
-import Match from "../Match/Match.Component";
+import FixturesAndResultMatches from "../FixturesAndResultsMatches/FixturesAndResultMatches.Component";
 
 function FixturesAndResult(){
     return(
@@ -9,13 +9,21 @@ function FixturesAndResult(){
             <div className="fixturesAndResult__fixRes">
                 <div className="fixturesAndResult__fixRes__fixtures">
                     <h3 className="fixturesAndResult__fixRes__fixtures__title">Fixtures</h3>
-                    <div>
+                    <div className="fixturesAndResult__fixRes__fixtures__title__match">
+                        <FixturesAndResultMatches />
+                        <FixturesAndResultMatches />
+                        <FixturesAndResultMatches />
+                        <FixturesAndResultMatches />
 
                     </div>
                 </div>
                 <div className="fixturesAndResult__fixRes__results">
                     <h3 className="fixturesAndResult__fixRes__results__title">Result</h3>
-                    <div>
+                    <div className="fixturesAndResult__fixRes__fixtures__title__match">
+                        <FixturesAndResultMatches />
+                        <FixturesAndResultMatches />
+                        <FixturesAndResultMatches />
+                        <FixturesAndResultMatches />
 
                     </div>
                 </div>

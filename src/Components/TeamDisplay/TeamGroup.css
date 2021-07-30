@@ -1,0 +1,15 @@
+.teamGroup{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 1vh 1vw;
+    background: #FDF6FF;
+}
+
+.teamGroup__teams{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*margin: 1vh 1vw;*/
+    background: #FDF6FF;
+}

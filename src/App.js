@@ -4,6 +4,7 @@ import Header from "./Components/Header/Header.Component";
 import LatestMatch from "./Components/LatestMatch/LatestMatch.Component";
 import Navigation from "./Components/Navbar/Navigation.Component";
 import FixturesAndResult from "./Components/FixturesAndResults/FixturesAndResult.Component";
+import GroupsDisplay from "./Components/GroupsDisplay/GroupsDisplay.Component";
 
 
 
@@ -14,6 +15,7 @@ function App() {
         <Navigation />
         <LatestMatch />
         <FixturesAndResult />
+        <GroupsDisplay />
     </div>
   );
 }
